@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bablu Chinese Center | Street Food</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&family=Russo+One&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="spinner"></div>
+        <h2>Heating the Wok...</h2>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Bablu <span class="highlight">Chinese</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Animated Smoke/Fire Background -->
+        <div class="smoke-container">
+            <div class="smoke s1"></div>
+            <div class="smoke s2"></div>
+            <div class="smoke s3"></div>
+            <div class="fire-glow"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Bablu Chinese Center">Bablu Chinese Center</h1>
+            <h2 class="subtitle">Taste the Real Street Chinese Flavor</h2>
+            <p class="tagline">🚩 Authentic Taste | 🚩 Hot & Spicy | 🚩 Roadside Feel</p>
+            <a href="#menu" class="btn-neon">View Menu <i class="fas fa-arrow-right"></i></a>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="floating-chili">🌶️</div>
+        <div class="floating-noodle">🍜</div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <h2 class="section-title">Popular <span class="highlight">Dishes</span></h2>
+        
+        <div class="menu-grid">
+            <!-- Card 1: Momos -->
+            <div class="card-3d" data-tilt>
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Momos">
+                        <div class="price-tag">Starts @ ₹30</div>
+                    </div>
+                    <div class="card-back">
+                        <h3>Steamed Momos</h3>
+                        <p>Juicy veg momos served with spicy red chutney.</p>
+                        <div class="price-options">
+                            <span>Veg: ₹30</span>
+                            <span>Paneer: ₹50</span>
+                        </div>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Chowmein -->
+            <div class="card-3d" data-tilt>
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Chowmein">
+                        <div class="price-tag">Starts @ ₹20</div>
+                    </div>
+                    <div class="card-back">
+                        <h3>Fried Chowmein</h3>
+                        <p>Stir-fried noodles with crispy vegetables & soy sauce.</p>
+                        <div class="price-options">
+                            <span>Veg: ₹20</span>
+                            <span>Egg: ₹40</span>
+                        </div>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Manchurian -->
+            <div class="card-3d" data-tilt>
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Manchurian">
+                        <div class="price-tag">Starts @ ₹40</div>
+                    </div>
+                    <div class="card-back">
+                        <h3>Manchurian</h3>
+                        <p>Fried balls in spicy gravy. The perfect evening snack!</p>
+                        <div class="price-options">
+                            <span>Veg: ₹40</span>
+                            <span>Dry: ₹70</span>
+                        </div>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: Fried Rice -->
+            <div class="card-3d" data-tilt>
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://images.unsplash.com/photo-1603133872878-684f208fb74b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Fried Rice">
+                        <div class="price-tag">Starts @ ₹40</div>
+                    </div>
+                    <div class="card-back">
+                        <h3>Fried Rice</h3>
+                        <p>Wok-tossed rice with vegetables and aromatic spices.</p>
+                        <div class="price-options">
+                            <span>Veg: ₹40</span>
+                            <span>Chicken: ₹70</span>
+                        </div>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5: French Fries -->
+            <div class="card-3d" data-tilt>
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Fries">
+                        <div class="price-tag">₹40</div>
+                    </div>
+                    <div class="card-back">
+                        <h3>French Fries</h3>
+                        <p>Crispy golden fries with spicy masala.</p>
+                        <div class="price-options">
+                            <span>Plain: ₹40</span>
+                            <span>Masala: ₹50</span>
+                        </div>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-container reveal">
+            <div class="about-text">
+                <h2>About <span class="highlight">Bablu</span></h2>
+                <p>Welcome to <strong>Bablu Chinese Center</strong>, the heartbeat of roadside Chinese cuisine in Bhareli. We bring you the authentic "desi" Chinese taste that burns your tongue but warms your heart.</p>
+                <p>🔥 <strong>Secret Sauces, Sizzling Wok, and Pure Happiness.</strong></p>
+                <p>Since our inception, we've been serving hot and steaming plates of Manchurian and Chowmein to satisfy your late-night cravings.</p>
+            </div>
+            <div class="about-visual">
+                <!-- CSS 3D Chef Illustration Representation -->
+                <div class="chef-3d">
+                    <div class="hat"></div>
+                    <div class="face"></div>
+                    <div class="body"></div>
+                    <div class="wok">
+                        <div class="fire"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact <span class="highlight">Us</span></h2>
+        <div class="contact-wrapper reveal">
+            <div class="contact-info glass-panel">
+                <h3>Get in Touch</h3>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Bhareli (Near Main Road)</p>
+                <p><i class="fas fa-phone-alt"></i> <strong>Phone:</strong> +91 9301384868</p>
+                <p><i class="fas fa-clock"></i> <strong>Open:</strong> 12:00 PM - 11:00 PM</p>
+                
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form glass-panel" onsubmit="event.preventDefault(); alert('Order Received! Bablu will call you soon.');">
+                <h3>Order Now</h3>
+                <input type="text" placeholder="Your Name" required>
+                <input type="text" placeholder="What would you like?" required>
+                <textarea placeholder="Message / Address" rows="4"></textarea>
+                <button type="submit" class="btn-neon">Send Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Bablu Chinese Center. All Rights Reserved.</p>
+        <p>Made with <i class="fas fa-heart" style="color: red;"></i> & Spices</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
